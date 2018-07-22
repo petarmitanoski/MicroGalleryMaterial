@@ -1,0 +1,22 @@
+.headerMenu{
+    top:0;
+    position: fixed;
+    z-index: 2;
+}
+
+.headerRight{
+    margin: 0;
+    float: right;
+    
+}
+
+.logOutLink{
+    text-decoration: none;
+    color: black;
+}
+
+.logoMg{
+    padding-right: 280px;
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,22 @@
+
+
+<mat-toolbar class="headerMenu">
+<div class="container">  
+  <a [routerLink]="['album']" class="logoMg">MicroGallery</a>
+
+  <div class="headerRight"><a [routerLink]="['']" class="logOutLink" *ngIf="isLoggedIn()" (click)="logOut()">Log Out</a></div>
+  </div>
+</mat-toolbar>
+
+
+<!-- <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header col-lg-2 col-md-2 col-sm-2 col-xs-2">     
+      <a class="navbar-brand" [routerLink]="['album']">MicroGallery</a>
+    </div>
+
+    <ul class="nav navbar-nav navbar-right col-lg-2 col-md-2 col-sm-2 col-xs-2">
+      <li><a [routerLink]="['']" *ngIf="isLoggedIn()" (click)="logOut()">Log Out</a></li>
+    </ul>
+  </div>
+</nav> -->
